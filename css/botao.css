@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+.github-botao {
+    width: 90px;
+    height: 90px;
+    background: #ffe600;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 10px #000;
+
+}
+.github-botao:hover {
+    background-color: #ffe600;
+    transform: scale(1.1);
+}
+
+.github-botao img {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.linkedin-botao {
+    width: 90px;
+    height: 90px;
+    background: #ffe600;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 10px #000;
+
+}
+.linkedin-botao:hover {
+    background-color: #ffe600;
+    transform: scale(1.1);
+}
+
+.linkedin-botao img {
+    width: 80px;
+    height: 80px;
+    margin-top: 7px;
+}
+
+.botoes {
+    padding-top: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    animation: transicaoBaixo 0.5s backwards;
+}
+
+@keyframes transicaoBaixo{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+@media (max-width: 650px) {
+    .github-botao {
+        width: 80px;
+        height: 80px;
+    }
+
+    .github-botao img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .linkedin-botao {
+        width: 80px;
+        height: 80px;
+    }
+
+    .linkedin-botao img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 820px) {
+    .botoes {
+        padding-top: 86vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .botoes {
+        padding-top: 75vh;
+    }
+}
+
+@media (max-width: 610px) {
+    .botoes {
+        padding-top: 65vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .botoes {
+     padding-top: 82vh;
+    }
+}
+@media (max-width: 414px) {
+    .botoes {
+        padding-top: 75vh;
+    }
+}
+
+@media (min-height: 1000px) {
+    .botoes{
+        padding-top: 65vh;
+    }
+}
+
+/* ipad */

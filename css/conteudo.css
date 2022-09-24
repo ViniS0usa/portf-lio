@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 160%;
+}
+
+.pagina2{
+    padding-top: 10px;
+    max-width: 100vh;
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    gap: 40px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #ffe600 0%, #8c52ff 100%);
+    border-radius: 10px;
+    padding-top: 4px;
+    box-shadow: 0px 0px 10px #000;
+
+}
+
+section div {
+    background-color: #090c1b;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #c4c2d8
+}
+
+section span {
+    letter-spacing: -0.18px;
+    color: #c4c2d8
+}
+
+.projetos div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.projetos img {
+    border-radius: 999px;
+    width: 80px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.habilidades ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px
+}
+
+.habilidades img {
+    width: 60px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 40%;
+}
+
+.contato ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.contato ul p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.contato img {
+    width: 40px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+
+/* animação e transição */
+
+.projetos img {
+    transition: transform 0.3s;
+}
+
+.projetos img:hover{
+    transform: scale(1.1);
+}
+
+.linkedin {
+    transition: transform 0.3s;
+}
+
+.linkedin:hover{
+    transform: scale(1.1);
+}
+
+.instagram {
+    transition: transform 0.3s;
+}
+
+.instagram:hover{
+    transform: scale(1.1);
+}
+
+section {
+    animation: transicaoBaixo 0.7s 0.5s backwards;
+}
+.sobre{
+    animation-delay: 0s;
+}
+.projetos {
+    animation-delay: 0.4s;
+}
+.contato {
+    animation-delay: 0.8s;
+}
+
+
+@keyframes transicaoBaixo{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
