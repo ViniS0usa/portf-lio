@@ -18,10 +18,10 @@ a:hover {
 
 #logo {
   font-size: 1.5rem;
-  text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 4px;
   margin-top: 3px;
+  color: #e7e7e7
 }
 
 #header {
@@ -30,8 +30,8 @@ a:hover {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background: linear-gradient(0deg, #e7e7e7 0%, #101733 100%)
+  justify-content: space-around;
+  background: linear-gradient(90deg, #131b3c 0%, #131b3c 20%, #1d2859 40%, #e7e7e7 100%)
 }
 
 #menu {
