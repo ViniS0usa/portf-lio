@@ -58,7 +58,7 @@ button{
 }
 
 .botoes {
-   /* padding-top: 70vh;*/
+    padding-top: 75vh;
     display: flex;
     justify-content: center;
     gap: 10%;
@@ -98,7 +98,7 @@ button{
         height: 70px;
     }
 }
-/*
+
 @media (max-width: 820px) {
     .botoes {
         padding-top: 86vh;
@@ -134,4 +134,4 @@ button{
     }
 }
 
- ipad */
+/* ipad */
